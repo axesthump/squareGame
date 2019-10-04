@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gameSquad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="app__header">
+            <h1 class="app__time">Время игры: <span class="app__time--dinamic">5.0</span></h1>
+            <h2 class="app__result hide">Ваш результат: <span class="app__result-dinamic"></span></h2>
+        </header>
+        <main class="app__content">
+            <button class="app__btn app__btn--start">Начать</button>
+            <div class="app__game"></div>
+        </main>
+        <footer class="app__footer">
+            <input class="app__input" type="number" value="5.0">
+        </footer>
+    </div>
+</body>
+<script src="start.js"></script>
+</html>

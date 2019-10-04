@@ -1,0 +1,61 @@
+.app {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.app__game {
+    width: 500px;
+    height: 500px;
+
+    position: relative;
+
+    border: 1px solid black;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.app__result {
+    margin-top: 30px;
+
+    font-size: 30px;
+}
+
+.app__time {
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.app__btn {
+    background-color: transparent;
+    border: none;
+
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+
+    padding: 10px;
+    margin: 0 auto;
+
+    display: block;
+
+    cursor: pointer;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.app__input {
+    min-width: 300px;
+
+    padding: 15px;
+    margin-top: 15px;
+
+    font-size: 24px;
+}
